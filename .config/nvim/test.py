@@ -4,7 +4,7 @@ df = pd.read_csv("~/Documents/models/goals_for_output.csv")
 
 print(df.head())
 
-
+df
 df.columns
 
 
@@ -14,4 +14,4 @@ df.columns
 df.coef
 
 
-df
+df["intercept"]
